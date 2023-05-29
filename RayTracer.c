@@ -138,23 +138,6 @@ Vec3 eye = {0,0,0};
 texture textures[10];
 
 /*
-Stack functions and variables
-
-
-void push(Stack s, float object){
-	s.top ++;
-	s.stackArray[s.top] = object;
-}
-
-double pop(Stack s){
-	double ret_val = s.stackArray[s.top];
-	s.top--;
-	return ret_val;
-}
-*/
-
-
-/*
 Helper function to calculate 
 ray intersections
 for various geometry
