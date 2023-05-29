@@ -169,7 +169,7 @@ int allocateTexture(char *file, texture *t){
 	double g;
 	double b;
 	int count = 0;
-    while(fscanf(fp, "%lf %lf %lf", &r, &g, &b) == 3){//issue is this, fgets works good for lines but no lines here, try sscanf instead
+    while(fscanf(fp, "%lf %lf %lf", &r, &g, &b) == 3){
     	Vec3 pixel = (Vec3) {r,g,b};
     	t->pixels[count] = pixel;
     	count++;
