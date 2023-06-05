@@ -23,4 +23,4 @@ At its current state, the program is able to generate images of scenes containin
 
 ## Shortcomings
 
-Currently, the program is only capable of using one texture at a time. I suspect it is due to the size of ASCII.ppm files and reading too many might be more than the program can currently handle. I suspect there is likely a workaround for this. Transparency was another feature I sought to implement, but had not been able to achieve. 
+Currently, the program is only capable of using one texture at a time. I suspect it is due to the size of ASCII.ppm files and reading too many might be more than the program can currently handle. I suspect there is likely a workaround for this. Transparency was another feature I sought to implement, but had not been able to achieve. Order of components in the input file also matters. For example, a texture will only be applied to objects if it is declared before the object is. 
