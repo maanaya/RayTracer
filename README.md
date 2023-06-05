@@ -14,7 +14,7 @@ The makefile allows for the compilation and generation of an executable simply c
 
 This would generate an ASCII.ppm file named Sample1.ppm. 
 
-![](Sample1.ppm)
+![](Capture.PNG)
 
 ## Input Files
 Example input txt files can be found in the repository. Each essential component is followed by a series of numbers. These typically represent a components 3d or 2d coordinates. For example, an eye/camera placed at coordinates (0,0,0) will have those three numbers proceding it in the input file. Further details about input file syntax can be found in the wiki.
